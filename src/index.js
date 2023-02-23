@@ -48,6 +48,7 @@ requestAnimationFrame(gameLoop);
 
 function drawSnake() {
   snake.x += snake.dx;
+
   snake.y += snake.dy;
 
   collisionBorder();
