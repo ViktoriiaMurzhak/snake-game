@@ -1,0 +1,84 @@
+*,
+::before,
+::after {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+#game {
+  background: #2a2a3c;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-name {
+  color: #18181f;
+  text-shadow: #2233ee 1px 0 10px;
+}
+
+#game-canvas {
+  display: block;
+  border-radius: 5px;
+}
+
+.game-hdr-btn {
+  display: flex;
+}
+
+.game-btn {
+  background: #18181f;
+  padding: 10px 15px;
+  margin-left: 10px;
+  height: 40px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+}
+
+.svg {
+  width: 30px;
+  height: 30px;
+}
+
+.game-header {
+  padding-top: 1vmin;
+  padding-bottom: 1vmin;
+
+  display: flex;
+  justify-content: space-between;
+}
+.game-score {
+  padding: 10px;
+  margin-bottom: 40px;
+  min-width: 160px;
+  height: 40px;
+  background: #18181f;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score-count {
+  font-size: 3vmin;
+  color: #2233ee;
+  font-weight: bold;
+}
+
+.canvas-wrapper {
+  background-color: #18181f;
+  border-radius: 5px;
+  border: 10px solid #18181f;
+  box-shadow: 0px 0px 40px 10px #2233ee;
+
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.2'%3E%3Ccircle cx='8' cy='8' r='4' fill='%23525053'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
